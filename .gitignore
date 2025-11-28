@@ -1,0 +1,9 @@
+
+# Ignore the target directory
+/target
+
+# Ignore any files with .env extension
+*.env
+
+# Do not ignore the example.env file
+!example.env
