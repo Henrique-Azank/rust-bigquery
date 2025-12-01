@@ -1,0 +1,23 @@
+
+{
+    // Auto-format on save
+    "editor.formatOnSave": true,
+    
+    // Use rust-analyzer for formatting
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    
+    // rust-analyzer specific settings
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.checkOnSave.allTargets": true,
+    
+    // Enable formatting via rustfmt
+    "rust-analyzer.rustfmt.enableRangeFormatting": true,
+    "rust-analyzer.rustfmt.extraArgs": [
+        "--config",
+        "group_imports=StdExternalCrate"
+    ]
+}
+

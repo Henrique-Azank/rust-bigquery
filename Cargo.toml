@@ -12,3 +12,5 @@ name = "rust-bigquery"
 
 
 [dependencies]
+dotenv = "0.15.0"
+serde = { version = "1.0.228", features = ["derive"] }

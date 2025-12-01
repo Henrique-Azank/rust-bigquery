@@ -7,5 +7,5 @@ fn main() -> Result<(), Box<dyn Error>> {
     println!("Starting the GCP bigquery tests");
 
     // Base return
-    return Ok(());
+    Ok(())
 }
