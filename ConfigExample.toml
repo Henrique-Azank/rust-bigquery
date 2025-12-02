@@ -1,0 +1,11 @@
+
+[application]
+name = "rust-bigquery"
+debug_mode = false
+
+[google_credentials]
+client_email = "user@example.com.br"
+private_key_path="./private_key.json"
+
+[bigquery]
+main_url="https://bigquery.googleapis.com"
