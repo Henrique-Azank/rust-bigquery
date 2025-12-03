@@ -7,3 +7,6 @@
 
 # Do not ignore the example.env file
 !example.env
+
+# Ignore the Config.toml file
+Config.toml
