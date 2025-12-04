@@ -10,3 +10,6 @@
 
 # Ignore the Config.toml file
 Config.toml
+
+# Ignore the service account key file
+service_account_key.json

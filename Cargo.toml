@@ -14,4 +14,7 @@ name = "rust-bigquery"
 [dependencies]
 config = "0.15.19"
 dotenv = "0.15.0"
+google-cloud-bigquery = "0.15.0"
 serde = { version = "1.0.228", features = ["derive"] }
+timed = "0.2.1"
+tokio = { version = "1", features = ["full"] }
